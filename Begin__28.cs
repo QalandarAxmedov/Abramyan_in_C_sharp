@@ -16,7 +16,7 @@ namespace Abramyan_1000
             A = A2 * A;
             Console.WriteLine($"A^5={A}");
             A2 = A * A;
-            Console.WriteLine($"A^10={A}");
+            Console.WriteLine($"A^10={A2}");
             A = A2 * A;
             Console.WriteLine($"A^15={A}");
         }
