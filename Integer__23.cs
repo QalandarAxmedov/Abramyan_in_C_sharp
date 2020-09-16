@@ -9,8 +9,8 @@ namespace Abramyan_1000
             int N,n;
             Console.Write("sekund N=");
             N = int.Parse(Console.ReadLine());
-            n = N % 3600 % 60;
-            Console.Write($"{N} sekund => {n} sekund");
+            n = N % 3600 / 60;
+            Console.Write($"{N} sekund => {n} minut");
         }
     }
 }
