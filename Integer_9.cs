@@ -10,7 +10,7 @@ namespace Abramyan_1000
             Console.Write("Uch xonali N=");
             N = int.Parse(Console.ReadLine());
             n = N/100;
-            Console.Write($"{N}>={n}*100");
+            Console.Write($"{N} = {n}**");
         }
     }
 }
