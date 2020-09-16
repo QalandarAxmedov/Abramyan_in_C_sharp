@@ -11,7 +11,7 @@ namespace Abramyan_1000
             N = int.Parse(Console.ReadLine());
             a = N / 10;
             b = N % 10;
-            Console.Write($"{N} soni {a} ta o'nlik va {b} ta birlik");
+            Console.Write($"{N}={a}*10+{b}");
         }
     }
 }
