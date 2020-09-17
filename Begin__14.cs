@@ -6,7 +6,8 @@ namespace Abramyan_1000
     {
         static void Main(string[] args)
         {
-            double L, S, R,pi=3.14;
+            const double pi=3.14;
+            double L, S, R;
             Console.Write("L=");
             L = double.Parse(Console.ReadLine());
             R= L / (2 * pi);

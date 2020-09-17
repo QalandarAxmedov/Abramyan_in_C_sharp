@@ -6,7 +6,8 @@ namespace Abramyan_1000
     {
         static void Main(string[] args)
         {
-            double R_1, R_2,pi=3.14;
+            const double pi=3.14;
+            double R_1, R_2;
             Console.Write("R__1=");
             R_1 = double.Parse(Console.ReadLine());
             Console.Write("R__2=");
